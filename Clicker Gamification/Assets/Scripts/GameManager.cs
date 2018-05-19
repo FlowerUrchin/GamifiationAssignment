@@ -7,13 +7,18 @@ public class GameManager : MonoBehaviour {
     public static GameManager instance = null;
 
     public int gold = 500;
+    int foe = 0;
+    public GameObject[] foes = new GameObject[1];
+    public int[] hp = new int[1];
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+    {
+        InstantiateFoe();
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		
 	}
 
@@ -32,6 +37,12 @@ public class GameManager : MonoBehaviour {
         {
             return false;
         }
+    }
+    //Activate Foe
+    public void InstantiateFoe()
+    {
+        foes[foe].GetComponent<TapFoe>().Create(hp[foe]);
+        foe++;
     }
 
     void Awake()
