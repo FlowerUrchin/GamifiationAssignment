@@ -30,7 +30,6 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//print(CanvasList[listno]);
         ChangeVisableCanvas();
 
         if (Q1correct == 1) { 
@@ -40,6 +39,7 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
             Q1A3.interactable = false;
             Q1A4.interactable = false;
             score++;
+            Q1correct = 0;
 
         }
 
@@ -50,6 +50,7 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
             Q2A3.interactable = false;
             Q2A4.interactable = false;
             score++;
+            Q2correct = 0;
 
         }
 
@@ -60,6 +61,7 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
             Q3A3.interactable = false;
             Q3A4.interactable = false;    
             score++;
+            Q3correct = 0;
 
         }
 
@@ -70,6 +72,7 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
             Q4A3.interactable = false;
             Q4A4.interactable = false;
             score++;
+            Q4correct = 0;
         
         }
 
@@ -108,8 +111,7 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
     //toggle buttons Q1
     public void OnClick_Q1A1() { 
          if (Q1A1.isOn == true) { 
-            print("WRONG!");
-            Q1A1.GetComponent<GUIText>().text = "WRONG!";
+            Q1A1.GetComponentInChildren<Text>().text = "WRONG!";
             Q1A1.interactable = false;
          }
     }
@@ -117,21 +119,21 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
     public void OnClick_Q1A2() {
         if (Q1A2.isOn == true) { 
             Q1A2.interactable = false;
-            print("CORRECT!");
+            Q1A2.GetComponentInChildren<Text>().text = "CORRECT!";
             Q1correct = 1;
         }
     }
 
     public void OnClick_Q1A3() { 
         if (Q1A3.isOn == true) { 
-            print("WRONG!");
+            Q1A3.GetComponentInChildren<Text>().text = "WRONG!";
             Q1A3.interactable = false;
         }
     }
 
     public void OnClick_Q1A4() { 
         if (Q1A4.isOn == true) { 
-            print("WRONG!");
+            Q1A4.GetComponentInChildren<Text>().text = "WRONG!";
             Q1A4.interactable = false;
         }
     }
@@ -140,28 +142,28 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
     public void OnClick_Q2A1() { 
         if (Q2A1.isOn == true) { 
             Q2A1.interactable = false;
-            print("CORRECT!");
+            Q2A1.GetComponentInChildren<Text>().text = "CORRECT!";
             Q2correct = 1;
         }
     }
     
     public void OnClick_Q2A2() {
         if (Q2A2.isOn == true) { 
-            print("WRONG!");
+            Q2A2.GetComponentInChildren<Text>().text = "WRONG!";
             Q2A2.interactable = false;
         }
     }
 
     public void OnClick_Q2A3() { 
         if (Q2A3.isOn == true) { 
-            print("WRONG!");
+            Q2A3.GetComponentInChildren<Text>().text = "WRONG!";
             Q2A3.interactable = false;
         }
     }
 
     public void OnClick_Q2A4() { 
         if (Q2A4.isOn == true) { 
-            print("WRONG!");
+            Q2A4.GetComponentInChildren<Text>().text = "WRONG!";
             Q2A4.interactable = false;
         }
     }
@@ -169,28 +171,29 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
     //toggle buttons Q3
     public void OnClick_Q3A1() { 
         if (Q3A1.isOn == true) { 
-            print("WRONG!");
+            Q3A1.GetComponentInChildren<Text>().text = "WRONG!";
             Q3A1.interactable = false;
         }
     }
     
     public void OnClick_Q3A2() { 
         if (Q3A2.isOn == true) { 
-            print("WRONG!");
+            Q3A2.GetComponentInChildren<Text>().text = "WRONG!";
             Q3A2.interactable = false;
         }
     }
 
     public void OnClick_Q3A3() {
         if (Q3A3.isOn == true) { 
-            print("WRONG!");
+            Q3A3.GetComponentInChildren<Text>().text = "CORRECT!";
             Q3A3.interactable = false;
+            Q3correct = 1;
         }
     }
 
     public void OnClick_Q3A4() {
         if (Q3A4.isOn == true) { 
-            print("WRONG!");
+            Q3A4.GetComponentInChildren<Text>().text = "WRONG!";
             Q3A4.interactable = false;
         }
     }
@@ -199,28 +202,28 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
     public void OnClick_Q4A1() { 
         if (Q4A1.isOn == true) { 
             Q4A1.interactable = false;
-            print("CORRECT!");
+            Q4A1.GetComponentInChildren<Text>().text = "CORRECT!";
             Q4correct = 1;
         }
     }
     
     public void OnClick_Q4A2() { 
         if (Q4A2.isOn == true) { 
-            print("WRONG!");
+            Q4A2.GetComponentInChildren<Text>().text = "WRONG!";
             Q4A2.interactable = false;
         }
     }
 
     public void OnClick_Q4A3() { 
         if (Q4A3.isOn == true) { 
-            print("WRONG!");
+            Q4A3.GetComponentInChildren<Text>().text = "WRONG!";
             Q4A3.interactable = false;
         }
     }
 
     public void OnClick_Q4A4() {
         if (Q4A4.isOn == true) { 
-            print("WRONG!");
+            Q4A4.GetComponentInChildren<Text>().text = "WRONG!";
             Q4A4.interactable = false;
         }
     }
