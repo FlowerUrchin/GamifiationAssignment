@@ -8,6 +8,7 @@ public class TapFoe : MonoBehaviour
     int health, maxHealth;
     public Slider enemyHealth;
     bool active = false;
+    public bool clicked = false;
 	// Use this for initialization
 	void Start ()
     {
@@ -28,6 +29,7 @@ public class TapFoe : MonoBehaviour
                 GameManager.instance.SpendGold(-10 * maxHealth);
                 //Hide and Deactivate
                 active = false;
+                GameManager.instance.InstantiateFoe();
                 gameObject.SetActive(false);
                 //Alert GameManager to change
 
@@ -37,11 +39,13 @@ public class TapFoe : MonoBehaviour
     public void Tap()
     {
         health--;
+        clicked = true;
     }
     public void Create(int hp)
     {
         maxHealth = hp;
         health = hp;
+        enemyHealth.maxValue = hp;
         active = true;
         gameObject.SetActive(true);
     }
