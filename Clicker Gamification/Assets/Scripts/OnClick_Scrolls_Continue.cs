@@ -13,7 +13,8 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
     public List<Toggle> ToggleList;
     private int listno = 0;
     private int listnoToggle = 0;
-    private int Q1correct, Q2correct, Q3correct, Q4correct;
+    private int Q1correct, Q2correct, Q3correct, Q4correct, score;
+    public Text scoretext;
 
 	// Use this for initialization
 	void Start () {
@@ -24,12 +25,56 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
         Q2correct = 0;
         Q3correct = 0;
         Q4correct = 0;
+        score = 0;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		//print(CanvasList[listno]);
         ChangeVisableCanvas();
+
+        if (Q1correct == 1) { 
+
+            Q1A1.interactable = false;
+            Q1A2.interactable = false;
+            Q1A3.interactable = false;
+            Q1A4.interactable = false;
+            score++;
+
+        }
+
+        if (Q2correct == 1) { 
+    
+            Q2A1.interactable = false;
+            Q2A2.interactable = false;
+            Q2A3.interactable = false;
+            Q2A4.interactable = false;
+            score++;
+
+        }
+
+        if (Q3correct == 1) { 
+    
+            Q3A1.interactable = false;
+            Q3A2.interactable = false;
+            Q3A3.interactable = false;
+            Q3A4.interactable = false;    
+            score++;
+
+        }
+
+        if (Q4correct == 1) { 
+    
+            Q4A1.interactable = false;
+            Q4A2.interactable = false;
+            Q4A3.interactable = false;
+            Q4A4.interactable = false;
+            score++;
+        
+        }
+
+        scoretext.text = "Correct questions: " + score + "/4";
+
 	}
 
     //check if listno > 4 and jump back to scroll selection if so otherwise increment listno.
@@ -64,6 +109,7 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
     public void OnClick_Q1A1() { 
          if (Q1A1.isOn == true) { 
             print("WRONG!");
+            Q1A1.GetComponent<GUIText>().text = "WRONG!";
             Q1A1.interactable = false;
          }
     }
