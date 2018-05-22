@@ -760,7 +760,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Alister
+  m_Text: Scronkfinkle
 --- !u!222 &310277228
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1001,7 +1001,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1238289644}
   toggleTransition: 1
   graphic: {fileID: 1782457618}
@@ -1009,7 +1009,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q4A2
         m_Mode: 1
         m_Arguments:
@@ -1022,7 +1022,7 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &376238129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,7 +1101,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q1A4
         m_Mode: 1
         m_Arguments:
@@ -1193,7 +1193,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q2A1
         m_Mode: 1
         m_Arguments:
@@ -1283,7 +1283,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Continue
         m_Mode: 1
         m_Arguments:
@@ -1957,7 +1957,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1899520167}
   toggleTransition: 1
   graphic: {fileID: 572371170}
@@ -1965,7 +1965,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q4A1
         m_Mode: 1
         m_Arguments:
@@ -1978,7 +1978,7 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &651122052
 GameObject:
   m_ObjectHideFlags: 0
@@ -2049,7 +2049,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 2087446284}
   toggleTransition: 1
   graphic: {fileID: 1530076804}
@@ -2057,7 +2057,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q4A4
         m_Mode: 1
         m_Arguments:
@@ -2070,7 +2070,7 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &673134891
 GameObject:
   m_ObjectHideFlags: 0
@@ -2350,7 +2350,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: The benefits of having an owl out-ways the risks
+  m_Text: An owl won't need taming
 --- !u!222 &691730878
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2619,7 +2619,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 673134893}
   toggleTransition: 1
   graphic: {fileID: 1320233369}
@@ -2627,7 +2627,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q2A4
         m_Mode: 1
         m_Arguments:
@@ -2640,7 +2640,7 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &841629530
 GameObject:
   m_ObjectHideFlags: 0
@@ -2789,7 +2789,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q1A1
         m_Mode: 1
         m_Arguments:
@@ -2814,29 +2814,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079d632c621143846ac49bb478667831, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Reading: {fileID: 0}
-  Q1: {fileID: 0}
-  Q2: {fileID: 0}
-  Q3: {fileID: 0}
-  Q4: {fileID: 0}
-  Q1A1: {fileID: 857801988}
-  Q1A2: {fileID: 1659526365}
-  Q1A3: {fileID: 1127656536}
-  Q1A4: {fileID: 376238131}
-  Q2A1: {fileID: 0}
-  Q2A2: {fileID: 0}
-  Q2A3: {fileID: 0}
-  Q2A4: {fileID: 0}
-  Q3A1: {fileID: 0}
-  Q3A2: {fileID: 0}
-  Q3A3: {fileID: 0}
-  Q3A4: {fileID: 0}
-  Q4A1: {fileID: 0}
-  Q4A2: {fileID: 0}
-  Q4A3: {fileID: 0}
-  Q4A4: {fileID: 0}
-  CanvasList: []
-  ToggleList: []
 --- !u!1 &889352768
 GameObject:
   m_ObjectHideFlags: 0
@@ -2976,7 +2953,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 889352770}
   toggleTransition: 1
   graphic: {fileID: 929269237}
@@ -2984,7 +2961,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q3A3
         m_Mode: 1
         m_Arguments:
@@ -2997,7 +2974,7 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &929269235
 GameObject:
   m_ObjectHideFlags: 0
@@ -3714,7 +3691,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q1A3
         m_Mode: 1
         m_Arguments:
@@ -4084,7 +4061,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1140901416}
   toggleTransition: 1
   graphic: {fileID: 1959319919}
@@ -4092,7 +4069,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q2A3
         m_Mode: 1
         m_Arguments:
@@ -4105,7 +4082,7 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1320233367
 GameObject:
   m_ObjectHideFlags: 0
@@ -4625,7 +4602,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1331921574}
   toggleTransition: 1
   graphic: {fileID: 1886759390}
@@ -4633,7 +4610,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q4A3
         m_Mode: 1
         m_Arguments:
@@ -4646,7 +4623,7 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1419940932
 GameObject:
   m_ObjectHideFlags: 0
@@ -5101,7 +5078,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Back
         m_Mode: 1
         m_Arguments:
@@ -5111,7 +5088,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1521065032
@@ -5217,7 +5194,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 691366623}
   toggleTransition: 1
   graphic: {fileID: 543206160}
@@ -5225,7 +5202,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q3A2
         m_Mode: 1
         m_Arguments:
@@ -5238,7 +5215,7 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1530076802
 GameObject:
   m_ObjectHideFlags: 0
@@ -5492,7 +5469,6 @@ GameObject:
   - component: {fileID: 1607161113}
   - component: {fileID: 1607161112}
   - component: {fileID: 1607161116}
-  - component: {fileID: 1607161117}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -5575,6 +5551,7 @@ RectTransform:
   - {fileID: 350525080}
   - {fileID: 136240911}
   - {fileID: 1401139371}
+  - {fileID: 1734360972}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5591,18 +5568,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1607161111}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e79e4fa972d47e5419f547f7f55b8b26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1607161117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1607161111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 079d632c621143846ac49bb478667831, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ee8dd17a9d0d3c41bad497960e46cff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Reading: {fileID: 87644602}
@@ -5628,6 +5594,7 @@ MonoBehaviour:
   Q4A4: {fileID: 651122054}
   CanvasList: []
   ToggleList: []
+  scoretext: {fileID: 1734360970}
 --- !u!1 &1621962753
 GameObject:
   m_ObjectHideFlags: 0
@@ -5698,7 +5665,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1039245613}
   toggleTransition: 1
   graphic: {fileID: 1828068353}
@@ -5706,7 +5673,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q2A2
         m_Mode: 1
         m_Arguments:
@@ -5719,7 +5686,7 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1649523903
 GameObject:
   m_ObjectHideFlags: 0
@@ -5871,7 +5838,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q1A2
         m_Mode: 1
         m_Arguments:
@@ -5885,6 +5852,80 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_IsOn: 0
+--- !u!1 &1734360969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1734360972}
+  - component: {fileID: 1734360971}
+  - component: {fileID: 1734360970}
+  m_Layer: 5
+  m_Name: score
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1734360970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1734360969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &1734360971
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1734360969}
+--- !u!224 &1734360972
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1734360969}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1607161115}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 300, y: 180}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1770438110
 GameObject:
   m_ObjectHideFlags: 0
@@ -6029,7 +6070,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 412232136}
   toggleTransition: 1
   graphic: {fileID: 2014628766}
@@ -6037,7 +6078,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q3A4
         m_Mode: 1
         m_Arguments:
@@ -6050,7 +6091,7 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1782457616
 GameObject:
   m_ObjectHideFlags: 0
@@ -6186,7 +6227,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: An owl won't need taming
+  m_Text: The benefits of having an owl out-ways the risks
 --- !u!222 &1811420953
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6331,7 +6372,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 1501366838}
   toggleTransition: 1
   graphic: {fileID: 2135685105}
@@ -6339,7 +6380,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1607161117}
+      - m_Target: {fileID: 1607161116}
         m_MethodName: OnClick_Q3A1
         m_Mode: 1
         m_Arguments:
@@ -6352,7 +6393,7 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Toggle+ToggleEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  m_IsOn: 1
+  m_IsOn: 0
 --- !u!1 &1861875113
 GameObject:
   m_ObjectHideFlags: 0
@@ -6845,7 +6886,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Having an owl is too awsome to worry about the risks involved
+  m_Text: Having an owl is too awsome to worry about the risks
 --- !u!222 &1961845415
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7415,7 +7456,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Scronkfinkle
+  m_Text: Alister
 --- !u!222 &2121713530
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7489,7 +7530,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: A baby weasel, a squirrel and a crow chick
+  m_Text: A baby weasel and a squirrel
 --- !u!222 &2133631215
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7631,10 +7672,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Taming an owl will be exceedingly difficult we should first find an owl
-    egg
-
-    before we think about it'
+  m_Text: Taming an owl will be exceedingly difficult we should first find an owl
+    egg before we think about it.
 --- !u!222 &2138819997
 CanvasRenderer:
   m_ObjectHideFlags: 0
