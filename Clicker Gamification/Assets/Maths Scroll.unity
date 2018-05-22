@@ -903,7 +903,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 597609274}
         m_MethodName: OnClick_Q3A1
         m_Mode: 1
         m_Arguments:
@@ -1255,7 +1255,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 597609274}
         m_MethodName: OnClick_Q1A1
         m_Mode: 1
         m_Arguments:
@@ -1302,19 +1302,19 @@ MonoBehaviour:
   Q1: {fileID: 1504822324}
   Q2: {fileID: 1116308408}
   Q3: {fileID: 526379133}
-  Q1A1: {fileID: 0}
-  Q1A2: {fileID: 0}
-  Q1A3: {fileID: 0}
-  Q1A4: {fileID: 0}
-  Q2A1: {fileID: 0}
-  Q2A2: {fileID: 0}
-  Q2A3: {fileID: 0}
-  Q2A4: {fileID: 0}
-  Q3A1: {fileID: 0}
-  Q3A2: {fileID: 0}
-  Q3A3: {fileID: 0}
-  Q3A4: {fileID: 0}
-  scoretext: {fileID: 0}
+  Q1A1: {fileID: 577658508}
+  Q1A2: {fileID: 624635955}
+  Q1A3: {fileID: 2125815875}
+  Q1A4: {fileID: 618558704}
+  Q2A1: {fileID: 1121314797}
+  Q2A2: {fileID: 810335152}
+  Q2A3: {fileID: 1549131405}
+  Q2A4: {fileID: 1237172705}
+  Q3A1: {fileID: 462930914}
+  Q3A2: {fileID: 675281244}
+  Q3A3: {fileID: 1066387470}
+  Q3A4: {fileID: 1887614559}
+  scoretext: {fileID: 638626832}
 --- !u!114 &597609275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1361,7 +1361,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1336949086}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1475,7 +1475,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 597609274}
         m_MethodName: OnClick_Q1A4
         m_Mode: 1
         m_Arguments:
@@ -1567,7 +1567,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 597609274}
         m_MethodName: OnClick_Q1A2
         m_Mode: 1
         m_Arguments:
@@ -1733,7 +1733,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 597609274}
         m_MethodName: OnClick_Q3A2
         m_Mode: 1
         m_Arguments:
@@ -1969,7 +1969,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 488584, guid: b0ad42c496536b34ba2c5285bc5de2de, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -140
       objectReference: {fileID: 0}
     - target: {fileID: 488584, guid: b0ad42c496536b34ba2c5285bc5de2de, type: 2}
       propertyPath: m_LocalRotation.x
@@ -2353,7 +2353,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 597609274}
         m_MethodName: OnClick_Q2A2
         m_Mode: 1
         m_Arguments:
@@ -2926,7 +2926,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 597609274}
         m_MethodName: OnClick_Q3A3
         m_Mode: 1
         m_Arguments:
@@ -3182,7 +3182,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 597609274}
         m_MethodName: OnClick_Q2A1
         m_Mode: 1
         m_Arguments:
@@ -3411,7 +3411,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 597609274}
         m_MethodName: OnClick_Q2A4
         m_Mode: 1
         m_Arguments:
@@ -4181,7 +4181,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 597609274}
         m_MethodName: OnClick_Q2A3
         m_Mode: 1
         m_Arguments:
@@ -5152,7 +5152,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 597609274}
         m_MethodName: OnClick_Q3A4
         m_Mode: 1
         m_Arguments:
@@ -5445,6 +5445,71 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1994014282}
+--- !u!1 &2052291258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2052291260}
+  - component: {fileID: 2052291259}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &2052291259
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2052291258}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &2052291260
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2052291258}
+  m_LocalRotation: {x: 1, y: 0, z: 0, w: 0}
+  m_LocalPosition: {x: 891.74756, y: 79.60333, z: 509}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
 --- !u!1 &2076269333
 GameObject:
   m_ObjectHideFlags: 0
@@ -5592,7 +5657,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 597609274}
         m_MethodName: OnClick_Q1A3
         m_Mode: 1
         m_Arguments:
