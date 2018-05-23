@@ -21,6 +21,7 @@ public class On_Click_Maths : MonoBehaviour {
         Q2correct = 0;
         Q3correct = 0;
         score = 0;
+        print("runmofo");
 	}
 	
 	// Update is called once per frame
