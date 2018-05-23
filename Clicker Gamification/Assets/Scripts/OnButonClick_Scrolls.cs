@@ -34,7 +34,8 @@ public class OnButonClick_Scrolls : MonoBehaviour {
     }
 
     //go back to previous page
-    public void OnClick_Back() { 
+    public void OnClick_Back() {
+        SceneManager.LoadScene("Combat Screen");
     
     }
 

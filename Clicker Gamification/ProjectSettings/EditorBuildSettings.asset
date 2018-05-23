@@ -17,3 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scroll Screen.unity
     guid: 37d8be076c6534c47ad2f353ef78b3e6
+  - enabled: 1
+    path: Assets/Reading Scroll.unity
+    guid: 1b96f4262bfae3b45bd2afdf87e8230f
+  - enabled: 1
+    path: Assets/Maths Scroll.unity
+    guid: a5c859934fcd3ae47a1f7df5a44b6dd5

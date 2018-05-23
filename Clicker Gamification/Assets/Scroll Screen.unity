@@ -199,7 +199,6 @@ GameObject:
   - component: {fileID: 634957910}
   - component: {fileID: 634957909}
   - component: {fileID: 634957913}
-  - component: {fileID: 634957914}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -294,20 +293,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 634957908}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d15ee676f70ae6419d3e09b0bab4324, type: 3}
+  m_Script: {fileID: 11500000, guid: a02a4f040a29e58488e19a27e20a7a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &634957914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 634957908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f88a69093774334fbb86e52f6abce09, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  readingScroll: {fileID: 0}
+  mathsScroll: {fileID: 0}
+  back: {fileID: 0}
+  newScroll: {fileID: 0}
 --- !u!1001 &702047592
 Prefab:
   m_ObjectHideFlags: 0
@@ -470,7 +462,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -390, y: 230}
+  m_AnchoredPosition: {x: -396, y: 189}
   m_SizeDelta: {x: 100, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &878922367
@@ -512,7 +504,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 634957914}
+      - m_Target: {fileID: 634957913}
         m_MethodName: OnClick_Back
         m_Mode: 1
         m_Arguments:
@@ -715,7 +707,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 634957914}
+      - m_Target: {fileID: 634957913}
         m_MethodName: OnClick_Maths
         m_Mode: 1
         m_Arguments:
@@ -1278,7 +1270,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 634957914}
+      - m_Target: {fileID: 634957913}
         m_MethodName: OnClick_Reading
         m_Mode: 1
         m_Arguments:
