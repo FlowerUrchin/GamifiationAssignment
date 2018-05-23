@@ -273,7 +273,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 439, y: 243.5}
+  m_AnchoredPosition: {x: 400, y: 250}
   m_SizeDelta: {x: 878, y: 487}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &97422795
@@ -441,7 +441,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &136240911
 RectTransform:
   m_ObjectHideFlags: 0
@@ -615,7 +615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &293739250
 RectTransform:
   m_ObjectHideFlags: 0
@@ -853,7 +853,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &350525080
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4381,7 +4381,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1401139371
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5316,8 +5316,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -325, y: 0}
-  m_SizeDelta: {x: 160, y: 200}
+  m_AnchoredPosition: {x: -315, y: 10}
+  m_SizeDelta: {x: 150, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1577417044
 MonoBehaviour:
@@ -5340,7 +5340,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 10
+    m_FontSize: 9
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -5365,18 +5365,18 @@ MonoBehaviour:
     one-eyed sparrow with a fretful temperment, was unconvinced of the wisdom of the
     endevor. \nQuoth he: \"This will surely be our undoing. Should we not give some
     thought to the art of owl-domestication and owl-taming first, before we bring
-    such a creature into our midst?\"\nReplied Pastus: \"Taming an owl sounds like
+    \nsuch a creature into our midst?\"\nReplied Pastus: \"Taming an owl sounds like
     an exceedingly difficult thing to do. It will be difficult enough to find an owl
     egg. So let us start there.\nAfter we have succeded in rasing an owl, then we
     can think about taking on this other challenge.\"\n\"There is a flaw in that plan!\"
     squeaked Scronkfinkle; but his protests were in vain as the flock had already
-    lifted off to start implementing the directives set out by Pastus.\nJust two or
-    three sparrows remained behind. Together they began to try to work out how owls
-    might be tamed or domesticated.\nThey soon realized that Pastus had been right:
-    this was an exceedingly difficult challenge, especially in the absence of an actual
-    owl to practice on. \nNevertheless they pressed on as best they could, constantly
-    fearing that the flock might return with an owl egg before a solution to the control
-    problem had been found.\n"
+    lifted off to start implementing the directives \nset out by Pastus.\nJust two
+    or three sparrows remained behind. Together they began to try to work out how
+    owls might be tamed or domesticated.\nThey soon realized that Pastus had been
+    right: this was an exceedingly difficult challenge, especially in the absence
+    of an actual owl to practice on. \nNevertheless they pressed on as best they could,
+    constantly fearing that the flock might return with an owl egg before a solution
+    to the control \nproblem had been found.\n"
 --- !u!222 &1577417045
 CanvasRenderer:
   m_ObjectHideFlags: 0
