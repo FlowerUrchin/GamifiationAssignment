@@ -3183,6 +3183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealth: {fileID: 1897645646}
   clicked: 0
+  element: 0
 --- !u!114 &1278577180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3321,6 +3322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyHealth: {fileID: 1897645646}
   clicked: 0
+  element: 0
 --- !u!222 &1285236832
 CanvasRenderer:
   m_ObjectHideFlags: 0

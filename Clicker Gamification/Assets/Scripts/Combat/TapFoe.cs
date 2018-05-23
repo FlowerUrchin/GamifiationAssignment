@@ -9,6 +9,8 @@ public class TapFoe : MonoBehaviour
     public Slider enemyHealth;
     bool active = false;
     public bool clicked = false;
+
+    public int element = 0;//Weakness: 1 Fire, 2 Ice, 3 Earth 
 	// Use this for initialization
 	void Start ()
     {
@@ -39,7 +41,22 @@ public class TapFoe : MonoBehaviour
 	}
     public void Tap()
     {
-        health--;
+        if(element == 1)
+        {
+            health -= GameManager.instance.GetFire();
+        }
+        else if (element == 2)
+        {
+            health -= GameManager.instance.GetFire();
+        }
+        else if (element == 3)
+        {
+            health -= GameManager.instance.GetFire();
+        }
+        else
+        {
+            health--;
+        }
         clicked = true;
     }
     public void Create(int hp)
