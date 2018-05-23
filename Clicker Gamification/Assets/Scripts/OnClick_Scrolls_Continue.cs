@@ -82,8 +82,9 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
 
     //check if listno > 4 and jump back to scroll selection if so otherwise increment listno.
     public void OnClick_Continue() { 
-        if (listno > 4) { 
-        
+        if (listno > 4) {
+
+            GameManager.instance.SpendGold(-(100+100*score));        
             SceneManager.LoadScene("Scroll Screen");
         
         } else {
