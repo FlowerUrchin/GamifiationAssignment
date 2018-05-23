@@ -17,6 +17,6 @@ public class ChangeSc : MonoBehaviour {
 
     public void Chungus()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("Combat Screen");
     }
 }
