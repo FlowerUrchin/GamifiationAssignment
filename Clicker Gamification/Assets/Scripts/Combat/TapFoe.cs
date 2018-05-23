@@ -29,6 +29,7 @@ public class TapFoe : MonoBehaviour
                 GameManager.instance.SpendGold(-10 * maxHealth);
                 //Hide and Deactivate
                 active = false;
+                GameManager.instance.Defeat();
                 GameManager.instance.InstantiateFoe();
                 gameObject.SetActive(false);
                 //Alert GameManager to change

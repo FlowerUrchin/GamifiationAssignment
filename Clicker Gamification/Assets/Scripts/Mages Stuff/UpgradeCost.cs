@@ -12,7 +12,7 @@ public class UpgradeCost : MonoBehaviour {
 	void Start ()
     {
         upgradeFire = GetComponent<Text>();
-
+        //gets current cost
 		
 	}
 	

@@ -4,4 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Main Menu.unity
+    guid: d5ab97a90754e3540af958f56e1763da
+  - enabled: 1
+    path: Assets/Combat Screen.unity
+    guid: 97400afe841591f4d81ad200833c7030
+  - enabled: 1
+    path: Assets/Mages Tower.unity
+    guid: c0a4446751a8737499600c2c935fd62c
+  - enabled: 1
+    path: Assets/Scroll Screen.unity
+    guid: 37d8be076c6534c47ad2f353ef78b3e6

@@ -6,20 +6,26 @@ public class GameManager : MonoBehaviour {
 
     public static GameManager instance = null;
 
-    public int gold = 500;
-    public int foe = 0;
+    static int goldTrue = 500;
+    public int gold = goldTrue;
+
+    static int foe = 0;
     public GameObject[] foes = new GameObject[3];
     public int[] hp = new int[3];
+
+    static int fire = 1, ice = 1, earth = 1;
+
 	// Use this for initialization
 	void Start ()
     {
+        //checkif foe is active
         InstantiateFoe();
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-		
+        gold = goldTrue;
 	}
 
     public int Gold()
@@ -28,9 +34,9 @@ public class GameManager : MonoBehaviour {
     }
     public bool SpendGold(int amount)
     {
-        if ((gold - amount) >= 0)
+        if ((goldTrue - amount) >= 0)
         {
-            gold -= amount;
+            goldTrue -= amount;
             return true;
         }
         else
@@ -42,7 +48,44 @@ public class GameManager : MonoBehaviour {
     public void InstantiateFoe()
     {
         foes[foe].GetComponent<TapFoe>().Create(hp[foe]);
+    }
+    //gives foe to button
+    public int FoeInt()
+    {
+        int got = foe;
+        return got;
+    }
+    public void Defeat()
+    {
         foe++;
+    }
+
+    public void Fire()
+    {
+        fire++;
+    }
+    public void Ice()
+    {
+        ice++;
+    }
+    public void Earth()
+    {
+        earth++;
+    }
+    public int GetFire()
+    {
+        int got = fire;
+        return got;
+    }
+    public int GetIce()
+    {
+        int got = ice;
+        return got;
+    }
+    public int GetEarth()
+    {
+        int got = earth;
+        return got;
     }
 
     void Awake()

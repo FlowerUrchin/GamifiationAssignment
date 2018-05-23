@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UpgradeButton : MonoBehaviour {
+public class EarthUpgradeButton : MonoBehaviour {
 
     public GameObject costText, showLevel;
 
@@ -21,7 +21,7 @@ public class UpgradeButton : MonoBehaviour {
     {
         if (costText.GetComponent<UpgradeCost>().Upgrade())
         {
-            showLevel.GetComponent<MageLevel>().Upgrade();
+            showLevel.GetComponent<EarthMageLevel>().Upgrade();
         }
     }
 }

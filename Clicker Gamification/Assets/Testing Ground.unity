@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gold: 500
+  foe: 0
   foes:
   - {fileID: 1389897991}
   hp: 32000000
@@ -380,7 +381,7 @@ Prefab:
       objectReference: {fileID: 158856158}
     - target: {fileID: 1998193525717306, guid: 36803716a91081f4b8f2eb2b49a8de3b, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114731790278406436, guid: 36803716a91081f4b8f2eb2b49a8de3b,
         type: 2}
@@ -1449,7 +1450,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c487b2d4113864d4aa17ddd8401c21fa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.28351682
+      value: -2.32
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c487b2d4113864d4aa17ddd8401c21fa, type: 3}
       propertyPath: m_LocalPosition.z
