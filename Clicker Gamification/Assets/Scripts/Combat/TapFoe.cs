@@ -47,15 +47,15 @@ public class TapFoe : MonoBehaviour
         }
         else if (element == 2)
         {
-            health -= GameManager.instance.GetFire();
+            health -= GameManager.instance.GetIce();
         }
         else if (element == 3)
         {
-            health -= GameManager.instance.GetFire();
+            health -= GameManager.instance.GetEarth();
         }
         else
         {
-            health--;
+            health -= (GameManager.instance.GetFire()+GameManager.instance.GetIce()+GameManager.instance.GetEarth())/3;
         }
         clicked = true;
     }
