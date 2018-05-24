@@ -11,12 +11,14 @@ public class TapFoe : MonoBehaviour
     bool active = false;
     public bool clicked = false;
 
+    Animator animator;
+
     public int element = 0;//Weakness: 1 Fire, 2 Ice, 3 Earth 
 	// Use this for initialization
 	void Start ()
     {
-        
-	}
+        animator = GetComponent<Animator>();
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -68,6 +70,8 @@ public class TapFoe : MonoBehaviour
         health -= dam;
         return dam;
         
+        animator.Play("Idle");
+
     }
 
     public int ShowElement()
