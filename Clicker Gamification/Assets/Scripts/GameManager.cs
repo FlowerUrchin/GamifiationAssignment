@@ -99,6 +99,10 @@ public class GameManager : MonoBehaviour {
         int got = earth;
         return got;
     }
+    public int GetElement()//The weakness
+    {
+        return foes[foe].GetComponent<TapFoe>().ShowElement();
+    }
 
     void Awake()
     {

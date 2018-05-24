@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Button : MonoBehaviour {
 
     public Text damage;
-    int dam, curText = 0;
+    int curText = 0;
     float time = 0.0f;
 
 	// Use this for initialization
@@ -24,8 +24,23 @@ public class Button : MonoBehaviour {
 	}
     public void hit()
     {
-        dam = GameManager.instance.foes[GameManager.instance.FoeInt()].GetComponent<TapFoe>().Tap();
-        damage.text = "" + dam;
+        if(GameManager.instance.GetElement() == 0)
+        {
+            damage.color = Color.white;
+        }
+        else if (GameManager.instance.GetElement() == 1)
+        {
+            damage.color = Color.red;
+        }
+        else if (GameManager.instance.GetElement() == 2)
+        {
+            damage.color = Color.cyan;
+        }
+        else if (GameManager.instance.GetElement() == 3)
+        {
+            damage.color = Color.green;
+        }
+        damage.text = ""+GameManager.instance.foes[GameManager.instance.FoeInt()].GetComponent<TapFoe>().Tap();
         time = Time.time + 0.07f;
 
     }

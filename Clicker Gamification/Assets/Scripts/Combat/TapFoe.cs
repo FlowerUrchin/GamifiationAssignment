@@ -69,6 +69,12 @@ public class TapFoe : MonoBehaviour
         return dam;
         
     }
+
+    public int ShowElement()
+    {
+        return element;
+    }
+
     public void Create(int hp)
     {
         maxHealth = hp;
