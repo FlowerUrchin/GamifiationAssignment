@@ -12,6 +12,7 @@ public class TapFoe : MonoBehaviour
     public bool clicked = false;
 
     Animator animator;
+    public Animation knock;
 
     public int element = 0;//Weakness: 1 Fire, 2 Ice, 3 Earth 
 	// Use this for initialization
@@ -51,6 +52,8 @@ public class TapFoe : MonoBehaviour
     {
         int dam;
         clicked = true;
+        animator.SetBool("Attack", true);
+        animator.SetBool("Attack", true);
         if (element == 1)
         {
             dam = GameManager.instance.GetFire();
@@ -70,7 +73,7 @@ public class TapFoe : MonoBehaviour
         health -= dam;
         return dam;
         
-        animator.Play("Idle");
+        
 
     }
 
