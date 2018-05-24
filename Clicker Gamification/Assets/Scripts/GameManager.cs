@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour {
 
     static int fire = 1, ice = 1, earth = 1;
 
+    public int coins = 0;
+
 	// Use this for initialization
 	void Start ()
     {
@@ -58,7 +60,17 @@ public class GameManager : MonoBehaviour {
     public void Defeat()
     {
         foe++;
+        coins = 5;
     }
+    public void GrabCoin()
+    {
+        coins--;
+        if(coins == 0)
+        {
+            InstantiateFoe();
+        }
+    }
+
 
     public void Fire()
     {

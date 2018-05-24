@@ -19,7 +19,7 @@ public class IceUpgradeButton : MonoBehaviour {
     }
     public void Pressed()
     {
-        if (costText.GetComponent<UpgradeCost>().Upgrade())
+        if (costText.GetComponent<UpgradeIce>().Upgrade())
         {
             showLevel.GetComponent<IceMageLevel>().Upgrade();
         }

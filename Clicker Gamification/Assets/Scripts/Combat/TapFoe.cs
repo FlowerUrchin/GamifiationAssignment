@@ -7,6 +7,7 @@ public class TapFoe : MonoBehaviour
 {
     int health, maxHealth;
     public Slider enemyHealth;
+    public GameObject[] coin = new GameObject[5];
     bool active = false;
     public bool clicked = false;
 
@@ -28,36 +29,45 @@ public class TapFoe : MonoBehaviour
                 //Reward Popup
 
                 //Add Gold
-                GameManager.instance.SpendGold(-10 * maxHealth);
+                //GameManager.instance.SpendGold(-10 * maxHealth);
                 //Hide and Deactivate
                 active = false;
                 GameManager.instance.Defeat();
-                GameManager.instance.InstantiateFoe();
+                //Creates coins:
+                for(int i =0; i < 5; i++)
+                {
+                    coin[i].GetComponent<CoinChange>().SetValue(10 * maxHealth / 5);
+                }
+                //GameManager.instance.InstantiateFoe();
                 gameObject.SetActive(false);
                 //Alert GameManager to change
 
             }
         }
 	}
-    public void Tap()
+    public int Tap()
     {
-        if(element == 1)
+        int dam;
+        clicked = true;
+        if (element == 1)
         {
-            health -= GameManager.instance.GetFire();
+            dam = GameManager.instance.GetFire();
         }
         else if (element == 2)
         {
-            health -= GameManager.instance.GetIce();
+            dam = GameManager.instance.GetIce();
         }
         else if (element == 3)
         {
-            health -= GameManager.instance.GetEarth();
+            dam = GameManager.instance.GetEarth();
         }
         else
         {
-            health -= (GameManager.instance.GetFire()+GameManager.instance.GetIce()+GameManager.instance.GetEarth())/3;
+            dam = (GameManager.instance.GetFire()+GameManager.instance.GetIce()+GameManager.instance.GetEarth())/3;
         }
-        clicked = true;
+        health -= dam;
+        return dam;
+        
     }
     public void Create(int hp)
     {

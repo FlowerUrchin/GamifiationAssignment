@@ -1,8 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Button : MonoBehaviour {
+
+    public Text damage;
 
 	// Use this for initialization
 	void Start () {
@@ -15,6 +18,6 @@ public class Button : MonoBehaviour {
 	}
     public void hit()
     {
-        GameManager.instance.foes[GameManager.instance.FoeInt()].GetComponent<TapFoe>().Tap();
+        damage.text = ""+GameManager.instance.foes[GameManager.instance.FoeInt()].GetComponent<TapFoe>().Tap();
     }
 }

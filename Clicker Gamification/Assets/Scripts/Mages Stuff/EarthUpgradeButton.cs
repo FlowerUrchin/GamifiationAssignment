@@ -19,7 +19,7 @@ public class EarthUpgradeButton : MonoBehaviour {
     }
     public void Pressed()
     {
-        if (costText.GetComponent<UpgradeCost>().Upgrade())
+        if (costText.GetComponent<UpgradeEarth>().Upgrade())
         {
             showLevel.GetComponent<EarthMageLevel>().Upgrade();
         }
