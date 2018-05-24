@@ -10,8 +10,8 @@ public class GameManager : MonoBehaviour {
     public int gold = goldTrue;
 
     static int foe = 0;
-    public GameObject[] foes = new GameObject[3];
-    public int[] hp = new int[3];
+    public GameObject[] foes = new GameObject[6];
+    public int[] hp = new int[6];
 
     static int fire = 1, ice = 1, earth = 1;
 
