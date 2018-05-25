@@ -32,6 +32,10 @@ public class TapFoe : MonoBehaviour
             animator = GetComponent<Animator>();
             knock = GetComponent<Animation>();
         }
+        if(identity == 4)
+        {
+            animator = GetComponent<Animator>();
+        }
         
     }
 	
@@ -82,6 +86,10 @@ public class TapFoe : MonoBehaviour
         if(identity == 3)
         {
             animator.Play("SlimeDie");
+        }
+        if(identity == 4)
+        {
+            animator.Play("BatHit");
         }
         //animator.SetBool("Attack", true);
         if (element == 1)
