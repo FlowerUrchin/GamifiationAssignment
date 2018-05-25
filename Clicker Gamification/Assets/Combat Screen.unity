@@ -440,10 +440,10 @@ MonoBehaviour:
   gold: 500
   foes:
   - {fileID: 1062759383}
+  - {fileID: 1285236829}
   - {fileID: 1278577177}
-  - {fileID: 1008810294}
   - {fileID: 760801390}
-  - {fileID: 1062759383}
+  - {fileID: 1008810294}
   - {fileID: 1008810294}
   hp: 32000000c8000000f4010000bc02000084030000e02e0000
   coins: 0
