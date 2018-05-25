@@ -3008,6 +3008,7 @@ MonoBehaviour:
   - {fileID: 1131132044}
   - {fileID: 1335743888}
   clicked: 0
+  identity: 0
   element: 2
 --- !u!1 &770333442
 GameObject:
@@ -3577,6 +3578,7 @@ MonoBehaviour:
   - {fileID: 1131132044}
   - {fileID: 1335743888}
   clicked: 0
+  identity: 0
   element: 2
 --- !u!1 &1029469317
 GameObject:
@@ -4720,12 +4722,13 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1278577178}
+  - component: {fileID: 1278577183}
+  - component: {fileID: 1278577185}
   - component: {fileID: 1278577179}
   - component: {fileID: 1278577182}
   - component: {fileID: 1278577181}
   - component: {fileID: 1278577180}
   - component: {fileID: 1278577184}
-  - component: {fileID: 1278577183}
   m_Layer: 0
   m_Name: spider_myOldOne
   m_TagString: Untagged
@@ -4780,6 +4783,7 @@ MonoBehaviour:
   - {fileID: 1131132044}
   - {fileID: 1335743888}
   clicked: 0
+  identity: 2
   element: 0
 --- !u!114 &1278577180
 MonoBehaviour:
@@ -4878,7 +4882,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 1f2b06b85c49f354ea52a1fea538d9b1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
@@ -4917,6 +4921,22 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!111 &1278577185
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1278577177}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400010, guid: bc600cce01eb57a409f4e69025868a2c, type: 3}
+  m_Animations:
+  - {fileID: 7400010, guid: bc600cce01eb57a409f4e69025868a2c, type: 3}
+  - {fileID: 7400012, guid: bc600cce01eb57a409f4e69025868a2c, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1285236829
 GameObject:
   m_ObjectHideFlags: 0
@@ -4935,7 +4955,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1285236830
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4976,6 +4996,7 @@ MonoBehaviour:
   - {fileID: 1131132044}
   - {fileID: 1335743888}
   clicked: 0
+  identity: 1
   element: 0
 --- !u!222 &1285236832
 CanvasRenderer:

@@ -10,15 +10,24 @@ public class TapFoe : MonoBehaviour
     public GameObject[] coin = new GameObject[5];
     bool active = false;
     public bool clicked = false;
+    public int identity;
 
     Animator animator;
-    public Animation knock;
+    Animation knock;
 
     public int element = 0;//Weakness: 1 Fire, 2 Ice, 3 Earth 
 	// Use this for initialization
 	void Start ()
     {
-        animator = GetComponent<Animator>();
+        if(identity == 1)
+        {
+            animator = GetComponent<Animator>();
+        }
+        if(identity == 2)
+        {
+            knock = GetComponent<Animation>();
+        }
+        
     }
 	
 	// Update is called once per frame
@@ -57,7 +66,14 @@ public class TapFoe : MonoBehaviour
     {
         int dam;
         clicked = true;
-        animator.Play("Knockback");
+        if(identity == 1)
+        {
+            animator.Play("Knockback");
+        }
+        if(identity == 2)
+        {
+            knock.Play("hit1");
+        }
         //animator.SetBool("Attack", true);
         if (element == 1)
         {
