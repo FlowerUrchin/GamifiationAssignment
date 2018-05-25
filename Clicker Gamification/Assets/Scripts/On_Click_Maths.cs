@@ -11,8 +11,8 @@ public class On_Click_Maths : MonoBehaviour {
     public Toggle Q1A1, Q1A2, Q1A3, Q1A4, Q2A1, Q2A2, Q2A3, Q2A4, Q3A1, Q3A2, Q3A3, Q3A4;
     private int listno = 0;
     private int listnoToggle = 0;
-    private int Q1correct, Q2correct, Q3correct, score;
-    public Text scoretext;
+    private int Q1correct, Q2correct, Q3correct, score, goldTally, goldInitial;
+    public Text scoretext, goldText;
 
 	// Use this for initialization
 	void Start () {
@@ -21,7 +21,7 @@ public class On_Click_Maths : MonoBehaviour {
         Q2correct = 0;
         Q3correct = 0;
         score = 0;
-        print("runmofo");
+        goldInitial = 100;
 	}
 	
 	// Update is called once per frame
@@ -62,6 +62,8 @@ public class On_Click_Maths : MonoBehaviour {
         }
 
         scoretext.text = "Correct questions: " + score + "/3";
+        goldTally = goldInitial + 100 * score;
+        goldText.text = "You earned +" + goldTally + " gold";
 
 	}
 
@@ -69,6 +71,7 @@ public class On_Click_Maths : MonoBehaviour {
     public void OnClick_Continue() { 
         if (listno > 2) { 
         
+            GameManager.instance.SpendGold(-(100+100*score)); 
             SceneManager.LoadScene("Scroll Screen");
         
         } else {

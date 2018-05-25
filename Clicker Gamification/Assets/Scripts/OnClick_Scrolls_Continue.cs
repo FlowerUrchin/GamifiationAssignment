@@ -13,8 +13,8 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
     public List<Toggle> ToggleList;
     private int listno = 0;
     private int listnoToggle = 0;
-    private int Q1correct, Q2correct, Q3correct, Q4correct, score;
-    public Text scoretext;
+    private int Q1correct, Q2correct, Q3correct, Q4correct, score, goldInitial, goldTally;
+    public Text scoretext, goldText;
 
 	// Use this for initialization
 	void Start () {
@@ -26,6 +26,8 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
         Q3correct = 0;
         Q4correct = 0;
         score = 0;
+        goldInitial = 100;
+
 	}
 	
 	// Update is called once per frame
@@ -77,6 +79,8 @@ public class OnClick_Scrolls_Continue : MonoBehaviour {
         }
 
         scoretext.text = "Correct questions: " + score + "/4";
+        goldTally = goldInitial + 100 * score;
+        goldText.text = "You earned +" + goldTally + " gold";
 
 	}
 
