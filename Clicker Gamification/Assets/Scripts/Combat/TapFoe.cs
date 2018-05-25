@@ -46,14 +46,19 @@ public class TapFoe : MonoBehaviour
                 //Alert GameManager to change
 
             }
+            if(clicked == true)
+            {
+                clicked = false;
+                //animator.SetBool("Attack", false);
+            }
         }
 	}
     public int Tap()
     {
         int dam;
         clicked = true;
-        animator.SetBool("Attack", true);
-        animator.SetBool("Attack", true);
+        animator.Play("Knockback");
+        //animator.SetBool("Attack", true);
         if (element == 1)
         {
             dam = GameManager.instance.GetFire();
