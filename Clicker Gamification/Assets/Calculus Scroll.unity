@@ -3576,7 +3576,7 @@ MonoBehaviour:
   Q3A3: {fileID: 1922142017}
   Q3A4: {fileID: 109280382}
   scoretext: {fileID: 1749988554}
-  goldtext: {fileID: 954512527}
+  goldText: {fileID: 954512527}
 --- !u!1 &1336949083
 GameObject:
   m_ObjectHideFlags: 0
