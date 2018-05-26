@@ -26,7 +26,7 @@ public class UpgradeEarth : MonoBehaviour {
         if ((GameManager.instance.gold - cost) >= 0)
         {
             GameManager.instance.SpendGold(cost);
-            cost += 50;//Increase cost
+            cost += 100;//Increase cost
             return true;
         }
         else
