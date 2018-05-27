@@ -60,6 +60,10 @@ public class GameManager : MonoBehaviour {
     public void Defeat()
     {
         foe++;
+        if(foe > 4)
+        {
+            foe = 0;
+        }
         coins = 5;
     }
     public void GrabCoin()
